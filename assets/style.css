@@ -1282,6 +1282,23 @@ body.img-8-wrap .cursor3 {
   
 } */
 
+.skills__inner>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.skills__inner>div>div {
+  width: 60px;
+}
+
 .skills__icon {
   position: absolute;
   top: 0;
